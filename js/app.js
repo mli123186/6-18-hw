@@ -36,18 +36,18 @@
 
 //Part 2: Boolean expressions and operators
 
-  // const a = 4;
-  // const b = 53;
-  // const c = 57;
-  // const d = 16;
-  // const e = 'Kevin';
-// 1. a < b
-// 2. c > d
-// 3. 'Name' === 'Name'
-// 4. a != b != c
-// 5. a === a != d
-// 6. e === 'Kevin'
-// 7. 48 == '48'
+  const a = 4;
+  const b = 53;
+  const c = 57;
+  const d = 16;
+  const e = 'Kevin';
+// 1. a < b true
+// 2. c > d true
+// 3. 'Name' === 'Name' true
+// 4. a !== b !== c true
+// 5. a === a !== d true
+// 6. e === 'Kevin' true
+// 7. 48 == '48' true
 
 //Part 3: While loops
 
@@ -74,7 +74,7 @@ while (i < 20) {
 	letters += "A";
 //i = i + 1 increment by 1;
 	i++;
-}
+};
 
 //display the total number of 'A' in console 
 console.log(letters); 
@@ -96,7 +96,7 @@ console.log(letters);
 
 for (let i = 0; i < 1000; i++) {
 	console.log(`the number: ${i}`);
-}
+};
 
 //3.  The mechanics of a for loop
 //What are the three components of the control statement?
@@ -110,7 +110,7 @@ for (let i = 0; i < 1000; i++) {
 
 for (let i = 999; i >= 0; i--) {
 	console.log(`${i}`);
-}
+};
 
 let total = 10;
 
